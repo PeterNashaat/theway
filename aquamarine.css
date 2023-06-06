@@ -6595,15 +6595,24 @@ body > * {
   bottom: 0px; }
 
 /* Animate state between .navbar and .navbar-ontop */
+/* Navbar background color */
 .navbar {
-  transition: background-color .5s ease-out;
-  background-image: linear-gradient(to bottom, #2472b0, #2472b0);
-  background-position: top left;
-  background-size: 100%;
-  background-repeat: repeat; }
+  background-color: #2472b0; }
 
-.navbar-ontop {
-  background-color: transparent !important; }
+/* Navbar text color */
+.navbar .navbar-nav .nav-link {
+  color: white; }
+
+/* Navbar hover text color */
+.navbar .navbar-nav .nav-link:hover {
+  color: #f96702; }
+
+/* Navbar active link color */
+.navbar .navbar-nav .active > .nav-link,
+.navbar .navbar-nav .nav-item.show > .nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show {
+  color: #55ca9e; }
 
 /* Animate on entrance */
 .animate-in-down {

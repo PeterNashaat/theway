@@ -195,16 +195,28 @@ body > * {
 
 
 /* Animate state between .navbar and .navbar-ontop */
+
+/* Navbar background color */
 .navbar {
-	transition: background-color .5s ease-out;
-	background-image: linear-gradient(to bottom, rgba(36, 114, 176, 1), rgba(36, 114, 176, 1));
-	background-position: top left;
-	background-size: 100%;
-	background-repeat: repeat;
+  background-color: rgba(36, 114, 176, 1);
 }
 
-.navbar-ontop {
-  background-color: transparent !important;
+/* Navbar text color */
+.navbar .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Navbar hover text color */
+.navbar .navbar-nav .nav-link:hover {
+  color: rgba(249, 103, 2, 1);
+}
+
+/* Navbar active link color */
+.navbar .navbar-nav .active > .nav-link,
+.navbar .navbar-nav .nav-item.show > .nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show {
+  color: rgba(85, 202, 158, 1);
 }
 
 /* Animate on entrance */
