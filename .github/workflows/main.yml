@@ -12,7 +12,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: 3.127.35.222
-        username: webuser
+        username: root
         key: ${{ secrets.TW_SECRET }}
         port: 22
         script: |
