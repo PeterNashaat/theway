@@ -18,5 +18,6 @@ jobs:
         script: |
           cd /opt/theway
           git log -1
-          sed -i '135d' index.html
+          git restore .
           git pull
+          sed -i '/Made with Pingendo Free/d index.html
