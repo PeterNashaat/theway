@@ -20,4 +20,4 @@ jobs:
           git log -1
           git restore .
           git pull
-          sed -i '/Made with Pingendo Free/d index.html
+          sed -i '/Made with Pingendo Free/d' index.html
