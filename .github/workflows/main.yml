@@ -18,4 +18,5 @@ jobs:
         script: |
           cd /opt/theway
           git log -1
+          sed -i '135d' index.html
           git pull
