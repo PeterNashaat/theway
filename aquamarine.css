@@ -6604,7 +6604,13 @@ body > * {
   color: white; }
 
 /* Navbar hover text color */
-.navbar .navbar-nav .nav-link:hover .btn:hover navbar-brand:hover {
+.navbar .navbar-nav .nav-link:hover {
+  color: #f96702; }
+
+.btn:hover {
+  color: #f96702; }
+
+.text-color-hover:hover {
   color: #f96702; }
 
 /* Navbar active link color */

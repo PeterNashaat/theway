@@ -207,9 +207,17 @@ body > * {
 }
 
 /* Navbar hover text color */
-.navbar .navbar-nav .nav-link:hover .btn:hover navbar-brand:hover{
+.navbar .navbar-nav .nav-link:hover{
   color: rgba(249, 103, 2, 1);
 }
+.btn:hover{
+  color: rgba(249, 103, 2, 1);
+}
+
+.text-color-hover:hover {
+  color: rgba(249, 103, 2, 1);
+}
+
 
 /* Navbar active link color */
 .navbar .navbar-nav .active > .nav-link,
