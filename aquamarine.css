@@ -6650,3 +6650,10 @@ body > * {
   .animate-in-right.out-of-viewport {
     opacity: 0;
     left: 5%; }
+
+.dynamic-navbar-bg {
+  transition: background-color 0.6s;
+  background-color: transparent !important; }
+
+.dynamic-navbar-bg.visible-bg {
+  background-color: #2472b0 !important; }
